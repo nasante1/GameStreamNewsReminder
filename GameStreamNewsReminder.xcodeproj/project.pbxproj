@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		03358C461FCC661E007D9041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03358C451FCC661E007D9041 /* AppDelegate.m */; };
-		03358C491FCC661E007D9041 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03358C481FCC661E007D9041 /* ViewController.m */; };
 		03358C4C1FCC661E007D9041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03358C4A1FCC661E007D9041 /* Main.storyboard */; };
 		03358C4F1FCC661E007D9041 /* GameStreamNewsReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03358C4D1FCC661E007D9041 /* GameStreamNewsReminder.xcdatamodeld */; };
 		03358C511FCC661E007D9041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03358C501FCC661E007D9041 /* Assets.xcassets */; };
 		03358C541FCC661E007D9041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03358C521FCC661E007D9041 /* LaunchScreen.storyboard */; };
 		03358C571FCC661E007D9041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03358C561FCC661E007D9041 /* main.m */; };
 		03358C611FCC661E007D9041 /* GameStreamNewsReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03358C601FCC661E007D9041 /* GameStreamNewsReminderTests.m */; };
+		03358C6D1FCC6759007D9041 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03358C6C1FCC6759007D9041 /* CollectionViewController.m */; };
+		03358C711FCC69F0007D9041 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03358C701FCC69F0007D9041 /* CollectionViewCell.m */; };
+		03358C741FCC789E007D9041 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03358C731FCC789E007D9041 /* DetailViewController.m */; };
+		03358C771FCC8490007D9041 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03358C761FCC8490007D9041 /* SearchViewController.m */; };
+		03358C791FCD800F007D9041 /* gameControllerPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 03358C781FCD800F007D9041 /* gameControllerPic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +35,6 @@
 		03358C411FCC661E007D9041 /* GameStreamNewsReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameStreamNewsReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03358C441FCC661E007D9041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03358C451FCC661E007D9041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03358C471FCC661E007D9041 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03358C481FCC661E007D9041 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03358C4B1FCC661E007D9041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03358C4E1FCC661E007D9041 /* GameStreamNewsReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameStreamNewsReminder.xcdatamodel; sourceTree = "<group>"; };
 		03358C501FCC661E007D9041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +44,15 @@
 		03358C5C1FCC661E007D9041 /* GameStreamNewsReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameStreamNewsReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03358C601FCC661E007D9041 /* GameStreamNewsReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameStreamNewsReminderTests.m; sourceTree = "<group>"; };
 		03358C621FCC661E007D9041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03358C6B1FCC6759007D9041 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		03358C6C1FCC6759007D9041 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		03358C6F1FCC69F0007D9041 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		03358C701FCC69F0007D9041 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		03358C721FCC789E007D9041 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		03358C731FCC789E007D9041 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		03358C751FCC8490007D9041 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		03358C761FCC8490007D9041 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		03358C781FCD800F007D9041 /* gameControllerPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameControllerPic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +76,16 @@
 		03358C381FCC661E007D9041 = {
 			isa = PBXGroup;
 			children = (
+				03358C751FCC8490007D9041 /* SearchViewController.h */,
+				03358C761FCC8490007D9041 /* SearchViewController.m */,
+				03358C721FCC789E007D9041 /* DetailViewController.h */,
+				03358C731FCC789E007D9041 /* DetailViewController.m */,
+				03358C6B1FCC6759007D9041 /* CollectionViewController.h */,
+				03358C6C1FCC6759007D9041 /* CollectionViewController.m */,
 				03358C431FCC661E007D9041 /* GameStreamNewsReminder */,
 				03358C5F1FCC661E007D9041 /* GameStreamNewsReminderTests */,
 				03358C421FCC661E007D9041 /* Products */,
+				03358C781FCD800F007D9041 /* gameControllerPic.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,11 +103,11 @@
 			children = (
 				03358C441FCC661E007D9041 /* AppDelegate.h */,
 				03358C451FCC661E007D9041 /* AppDelegate.m */,
-				03358C471FCC661E007D9041 /* ViewController.h */,
-				03358C481FCC661E007D9041 /* ViewController.m */,
 				03358C4A1FCC661E007D9041 /* Main.storyboard */,
 				03358C501FCC661E007D9041 /* Assets.xcassets */,
 				03358C521FCC661E007D9041 /* LaunchScreen.storyboard */,
+				03358C6F1FCC69F0007D9041 /* CollectionViewCell.h */,
+				03358C701FCC69F0007D9041 /* CollectionViewCell.m */,
 				03358C551FCC661E007D9041 /* Info.plist */,
 				03358C561FCC661E007D9041 /* main.m */,
 				03358C4D1FCC661E007D9041 /* GameStreamNewsReminder.xcdatamodeld */,
@@ -190,6 +208,7 @@
 			files = (
 				03358C541FCC661E007D9041 /* LaunchScreen.storyboard in Resources */,
 				03358C511FCC661E007D9041 /* Assets.xcassets in Resources */,
+				03358C791FCD800F007D9041 /* gameControllerPic.png in Resources */,
 				03358C4C1FCC661E007D9041 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,10 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03358C491FCC661E007D9041 /* ViewController.m in Sources */,
+				03358C6D1FCC6759007D9041 /* CollectionViewController.m in Sources */,
+				03358C711FCC69F0007D9041 /* CollectionViewCell.m in Sources */,
 				03358C461FCC661E007D9041 /* AppDelegate.m in Sources */,
 				03358C571FCC661E007D9041 /* main.m in Sources */,
 				03358C4F1FCC661E007D9041 /* GameStreamNewsReminder.xcdatamodeld in Sources */,
+				03358C741FCC789E007D9041 /* DetailViewController.m in Sources */,
+				03358C771FCC8490007D9041 /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
